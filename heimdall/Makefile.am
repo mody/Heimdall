@@ -1,3 +1,5 @@
+SUBDIRS = $(subdirs)
+
 AUTOMAKE_OPTIONS = subdir-objects
 ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS}
 AM_CPPFLAGS = $(DEPS_CFLAGS) -std=c++0x -I../libpit/Source
